@@ -1,0 +1,105 @@
+.border-box {
+  background: white;
+  margin: 5px;
+}
+
+.title {
+    width: 93px;
+    height: 19px;
+    left: 16px;
+    top: 144px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 19px;
+    font-size: 12px;
+    color: #999999;
+}
+
+.profile-pic {
+    width: 24px;
+    height: 22.86px;
+    left: 17px;
+    top: 184.95px;
+    /* Green 2 */
+    background: #27AE60;
+    border-radius: 50%;
+    display: flex;
+    float: left;
+}
+
+.profile-name {
+    width: 100px;
+    height: 19px;
+    left: 49px;
+    top: 185px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 19px;
+    font-size: 16px;
+    letter-spacing: -0.8px;
+    color: #666666;
+    display: flex;
+    padding-left: 10px;
+}
+
+.date-time {
+    width: auto;
+    height: 15px;
+    left: 250px;
+    top: 189px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 15px;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: -0.6px;
+    color: #666666;
+    display: inline;
+    float: right;
+}
+
+.comment {
+    width: 296px;
+    height: 35px;
+    left: 49px;
+    top: 214px;
+    font-family: EB Garamond;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 15px;
+    font-size: 12px;
+    letter-spacing: -0.6px;
+    color: #666666;
+    display: block;
+    padding-top: 20px;
+    padding-left: 35px;
+}
+
+.reply-btn {
+    text-align: right;
+    font-size: 12px;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    box-shadow: none;
+    z-index: 1;
+}
+
+.dropdown-content input:hover {
+    display: block;
+    width: 280px;
+    height: 30px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    width: 280px;
+}

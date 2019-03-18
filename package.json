@@ -1,0 +1,33 @@
+{
+  "name": "article-card",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/styled-components": "^4.1.10",
+    "ably": "^1.1.4",
+    "lodash": "^4.17.11",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.3",
+    "react-commentbox": "^3.0.1",
+    "react-dom": "^16.8.3",
+    "react-scripts": "2.1.5",
+    "react-slick": "^0.23.2",
+    "react-swipeable": "^5.0.1",
+    "styled-components": "^4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

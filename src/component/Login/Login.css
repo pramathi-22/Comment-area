@@ -1,0 +1,67 @@
+.image-slider {
+    position: relative;
+    width: 360px;
+    height: 421px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.3) 100%);
+}
+.text-signin {
+    text-align: -webkit-center;
+    margin-top: 20px;
+}
+.text-signin p {
+    width: 85px;
+    height: 12px;
+    left: 129px;
+    top: 444px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 11px;
+    font-size: 12px;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.textbox {
+    text-align: -webkit-center;
+    padding: 5px;
+    border-style:none;
+    box-shadow:none;
+}
+.mobile-no {
+    border-radius: 10px;
+    background: rgba(153, 153, 153, 0.1);
+    left: 7.22%;
+    right: 7.22%;
+    top: 75%;
+    bottom: 19.38%;
+    align-items: center;
+    width: 250px;
+}
+
+::placeholder {
+    
+    width: 215px;
+    height: 12px;
+    left: 72px;
+    top: 492px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 11px;
+    font-size: 12px;
+    text-align: center;
+    color: #222222;
+}
+
+.social-icons {
+    text-align: -webkit-center;
+}
+img {
+    height: auto;
+    max-width: 100%;
+    border-radius: 50%;
+    width: 20%;
+}
